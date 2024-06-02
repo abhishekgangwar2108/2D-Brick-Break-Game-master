@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+* {
+    box-sizing: border-box;
+    margin-bottom: 0.5cm;
+  }
+
+  body {
+    background-color: #d0eaf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  #Hea{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(51, 17, 80);
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+  canvas{
+    display: block;
+    border-radius: 5px;
+  }
+
+  .btn {
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    margin-top: 2cm;
+    border: 2px white solid;
+  }
+  
+  .btn:hover {
+    color: black;
+    background: rgb(245, 243, 243);
+    border: 2px rgb(8, 8, 8) solid;
+  }
+  
+  .rules {
+    position: absolute;
+    top: 115px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
+    display: none;
+  }
+
+  h2{
+    margin-top: 3cm;
+    text-align: center;
+    color: whitesmoke;
+  }
+  p{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1cm;
+    font-size: 1rem;
+  }
+  .sound{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 670px;
+    left: 370px;
+    cursor: pointer;
+    display: none;
+  }
+  #gameOver{
+    position: absolute;
+    top: 135px;
+    width: 800px;
+    height: 600px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    display: none;
+  }
+  #youwon{
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left:200px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  #youlose{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left:200px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  #restart{
+    position: absolute;
+    top: 10.5cm;
+    left: 9.4cm;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: white;
+  }
+
+  #Main_Menu{
+    position: absolute;
+    top: 11.2cm;
+    left: 8.3cm;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: white;
+  }
+
+  #menu{
+    position: absolute;
+    top: 115px;
+    width: 800px;
+    height: 600px;
+    background: url("Menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px; 
+  }
+  #Name{
+    margin-top: 4cm;
+  }
+  #Name,#show,#contacts{
+    margin-left: 1.5cm;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+    text-align: left;
+    cursor: pointer;
+    padding: 12px;
+    color: rgb(163, 22, 22);
+  }
+  .on{
+    display: block;
+  }
+
+  #credit{
+    position: absolute;
+    top: 115px;
+    width: 800px;
+    background: #000;
+    color: #fff;
+    height: 600px;
+    border-radius: 5px;
+    display: none;
+  }

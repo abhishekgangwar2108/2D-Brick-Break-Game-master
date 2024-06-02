@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="brickGame.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+    <title>Brick Breaker</title>
+</head>
+<body>
+  <h1 id="Hea">!!!Welcome To Brick Breaker Game!!!</h1>
+  <div class="MainMenu" id="menu">
+
+    <div id="Name" style="width: 8cm;">--> Start Game</div>
+    <div id="show" style="width: 8cm;">--> Show Rules</div>
+    <div id="contacts" style="width: 6cm;" >--> Credits</div>
+
+  </div>
+    <div id="rules" class="rules">
+      <h2>How To Play:</h2>
+      <p>
+        Use your right and left keys to move the paddle to bounce the ball up
+        and break the blocks.
+      </p>
+      <p>If you miss the ball, your score and the blocks will reset.</p>
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+
+    <div>
+      <img class="sound" src="sound.png" alt="image" id="sound">
+    </div>
+
+    <div id="gameOver">
+      <img src="won.jpg" alt="" id="youwon">
+      <img src="over.jpg" alt="" id="youlose">
+      <div id="restart">Play Again!</div>
+      <div id="Main_Menu">Return To Main Menu!</div>
+    </div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <div id="credit">
+      <h3 style="text-align: center; margin-top: 2cm;">Developed By</h3>
+      <h5 style="text-align: center;">ABHISHEK
+      <br>abhishekgangwar@gmail.com <br> 8909606278</h5>
+      <h1 style="color: whitesmoke;position: absolute; left: 7cm;top: 7cm;">THANK YOU</h1>
+      <p style="position: absolute; bottom:1.5cm; left: 7cm;">© Copyright reserved 2021 Abhishek</p>
+      <button id="close" class="btn" style="position: absolute; bottom:0.2cm; left: 9.5cm;">Close</button>
+    </div>
+
+    <script src="component.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
